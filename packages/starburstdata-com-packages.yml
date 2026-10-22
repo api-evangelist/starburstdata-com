@@ -1,0 +1,25 @@
+generated: '2026-10-22'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/starburstdata
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (security/starburstdata-com-domain-security.yml,
+  starburst.io, starburstdata.com) or its accepted GitHub org (starburstdata).'
+packages:
+- name: starburst-collibra
+  registry: github
+  url: https://github.com/starburstdata/starburst-collibra
+  language: Python
+  official: true
+  version: null
+  published: '2024-10-15'
+  source_repo: https://github.com/starburstdata/starburst-collibra
+  evidence: repository in github.com/starburstdata, whose profile names the provider's domain
+- name: hive-json-serde
+  registry: github
+  url: https://github.com/starburstdata/hive-json-serde
+  language: Java
+  official: true
+  version: null
+  published: '2023-08-18'
+  source_repo: https://github.com/starburstdata/hive-json-serde
+  evidence: repository in github.com/starburstdata, whose profile names the provider's domain

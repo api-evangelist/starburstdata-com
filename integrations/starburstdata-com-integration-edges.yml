@@ -1,0 +1,22 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/starburstdata-com/integrations
+- https://zapier.com/apps/starburstdata/integrations
+- https://zapier.com/apps/starburst/integrations
+- https://n8n.io/integrations/starburstdata-com/
+- https://n8n.io/integrations/starburstdata/
+- https://composio.dev/toolkits/starburstdata-com
+- https://monid.ai/tools/starburstdata-com
+checked:
+- https://composio.dev/toolkits/starburstdata-com
+- https://monid.ai/tools/starburstdata-com
+- https://n8n.io/integrations/starburstdata-com/
+- https://n8n.io/integrations/starburstdata/
+- https://zapier.com/apps/starburst/integrations
+- https://zapier.com/apps/starburstdata-com/integrations
+- https://zapier.com/apps/starburstdata/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

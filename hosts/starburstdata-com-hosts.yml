@@ -1,0 +1,130 @@
+generated: '2026-10-22'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 9
+  own: 4
+  other_domain: 4
+  platform: 1
+  roles:
+  - api
+  - docs
+  - other
+  - partner
+  - source
+  - website
+hosts:
+- host: api.starburst.io
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: starburst.io
+  role: api
+  relation: other-domain
+- host: api.starburstdata.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: starburstdata.com
+  role: api
+  relation: own
+- host: docs.starburst.io
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: starburst.io
+  role: docs
+  relation: other-domain
+- host: docs.starburstdata.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - namespace-probe
+  - contract-discovery
+  - well-known
+  types:
+  - Documentation
+  serves: []
+  title: Starburst | Starburst
+  status: 200
+  registrable_domain: starburstdata.com
+  role: docs
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: partners.starburstdata.com
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  title: Starburst Data
+  status: 200
+  registrable_domain: starburstdata.com
+  role: partner
+  relation: own
+- host: trust.starburst.io
+  found_by:
+  - pointer
+  types:
+  - TrustCenter
+  serves: []
+  registrable_domain: starburst.io
+  role: other
+  relation: other-domain
+- host: www.starburst.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types:
+  - TermsOfService
+  - Support
+  - Security
+  - PrivacyPolicy
+  - Pricing
+  - Newsroom
+  - ChangeLog
+  - Blog
+  - GettingStarted
+  serves:
+  - docs
+  registrable_domain: starburst.io
+  role: docs
+  relation: other-domain
+- host: www.starburstdata.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - hosting
+  vendor: vercel
+  registrable_domain: starburstdata.com
+  role: website
+  relation: own

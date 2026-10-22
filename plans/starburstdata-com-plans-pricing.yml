@@ -1,0 +1,32 @@
+generated: '2026-10-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.starburst.io/pricing/
+sources:
+- https://www.starburst.io/pricing/
+- https://www.starburst.io/pricing/
+- https://www.starburst.io/pricing/pricing-details/
+- https://www.starburst.io/info/office-hours-starburst-consoles-unified-cost-usage-and-billing-visibility/
+name: Starburst pricing
+audience: business-product
+pricing_basis: per-call
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  description: Create and run up to 3 clusters; Access to standard cluster execution mode for ad hoc queries
+- name: Pro
+  price_text: Starting at $0.50 /credit
+  price: 0.5
+  description: Flexible cluster execution modes; Streaming; Ingest; Advanced cluster management
+- name: Enterprise
+  price_text: Starting at $0.75 /credit
+  price: 0.75
+  description: Advanced autoscaling features; Fine-grained access controls (ABAC, SCIM); AWS PrivateLink; Early access to features; AIDA (token
+    usage billed separately)
+- name: Mission-Critical
+  price_text: Starting at $1.00 /credit
+  price: 1.0
+  description: Elite support and ticketing; Advanced governance integrations; Lakehouse security and compliance tools; Highest uptime guarantees;
+    AIDA (token usage billed separately)
+docs: https://www.starburst.io/pricing/

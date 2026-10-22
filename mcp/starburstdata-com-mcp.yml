@@ -1,0 +1,9 @@
+generated: '2026-10-22'
+method: none
+source: preflight
+
+# No MCP server discovered; mode none indicates derived candidate.
+deployment:
+  mode: none
+  auth: unknown
+  verified: derived
